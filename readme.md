@@ -16,3 +16,9 @@ This simple GUI was written in the objectives to:
 ### How-to
 - Run adsb_gui.py (python adsb_gui.py)
 - Read help and how-to tabs
+### ToDo list
+- improve adsb_receiver.grc flowgraph
+  - test https://factorialabs.com/2018/05/ improved bloc correlate access code Tag with packet length
+  - Test Paul Boven (Jive, Netherlands) solution using payload/header demux
+  * test Cyrille Morin (INSA, Lyon) solution using a  "python bloc" (adsb_burst_divider.grc).
+  * implement a self adjusted threshold in the OOK receiver
