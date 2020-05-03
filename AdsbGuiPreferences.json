@@ -1,0 +1,1 @@
+{"my_browserLauncher": "chromium-browser  --disable-web-security --allow-file-access-from-files --user-data-dir map/map.html", "my_ADSB_Launcher": "python3 adsb_receiver.py", "myBrowser": "OS default browser", "my_location": [{"Latitude": 50.667292, "Longitude": 3.093302, "Altitude": 10.0}], "my_units": [{"DistanceUnit": "Miles", "AltitudeUnit": "m", "VerticalSpeedUnit": "m/s"}]}
