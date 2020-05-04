@@ -14,9 +14,11 @@ This simple GUI was written in the objectives to:
 - in order to browse a "flight radar" map you must have a browser able to read local file i.e. bypassing the 'Same-Origin-Policy' For Local Files. This has been test with Chromium and can be configured in user preferences to use other browser.
 
 ### How-to
-- Run adsb_gui.py (python adsb_gui.py)
+- Run gui_adsb.py (python gui_adsb.py)
 - Read help and how-to tabs
+
 ### ToDo list
+- implement unit conversion (partially done)
 - improve adsb_receiver.grc flowgraph
   - test https://factorialabs.com/2018/05/ improved bloc correlate access code Tag with packet length
   - Test Paul Boven (Jive, Netherlands) solution using payload/header demux
